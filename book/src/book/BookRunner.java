@@ -3,9 +3,9 @@ package book;
 public class BookRunner {
 
 	public static void main(String[] args) {
-		Book artOfProgramming = new Book();
-		Book effectiveJava = new Book();
-		Book cleanCode = new Book();
+		Book artOfProgramming = new Book(10);
+		Book effectiveJava = new Book(20);
+		Book cleanCode = new Book(5);
 
 		artOfProgramming.read();
 
@@ -13,10 +13,14 @@ public class BookRunner {
 
 		cleanCode.read();
 
-		artOfProgramming.noOfCopies = 100;
+		artOfProgramming.setNoOfCopies(100);
+		artOfProgramming.increaseNoOfCopies(100);
+		artOfProgramming.decreaseNoOfCopies(50);
 
-		effectiveJava.noOfCopies = 50;
+		System.out.println(artOfProgramming.getNoOfCopies());
 
-		cleanCode.noOfCopies = 10;
+		effectiveJava.setNoOfCopies(50);
+
+		cleanCode.setNoOfCopies(10);
 	}
 }

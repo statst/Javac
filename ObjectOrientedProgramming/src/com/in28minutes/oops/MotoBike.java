@@ -4,6 +4,10 @@ public class MotoBike {
 	// state
 	private int speed;
 
+	// constructor
+	MotoBike(int speed) {
+		this.speed = speed;
+	}
 	// behavior
 	// method
 	// inputs - int speed
@@ -14,6 +18,8 @@ public class MotoBike {
 	public int getSpeed() {
 		return speed;
 	}
+
+
 
 	public void setSpeed(int speed) { // local variable
 		if (speed > 0) {
