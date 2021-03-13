@@ -1,4 +1,8 @@
 
+.plugins/
+.lock
+
+
 ### Java ###
 # Compiled class file
 *.class

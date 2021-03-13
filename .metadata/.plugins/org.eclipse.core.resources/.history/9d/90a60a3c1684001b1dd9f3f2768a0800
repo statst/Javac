@@ -1,7 +1,0 @@
-package com.in28minutes.oops;
-
-public class MotoBike {
-	void start() {
-		System.out.println("Bike Started");
-	}
-}

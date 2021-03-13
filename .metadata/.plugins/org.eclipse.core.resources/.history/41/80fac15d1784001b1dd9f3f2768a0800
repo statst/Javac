@@ -1,7 +1,0 @@
-package book;
-
-public class Book {
-	void read() {
-		System.out.println("read book");
-	}
-}
