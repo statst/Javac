@@ -1,0 +1,16 @@
+package book;
+
+public class BookRunner {
+	
+	public static void main(String[] args) {
+		Book ArtOfProgramming = new Book();
+		Book EffectiveJava = new Book();
+		Book CleanCode = new Book();
+		
+		ArtOfProgramming.read();
+		
+		EffectiveJava.read();
+		
+		CleanCode.read();
+	}
+}

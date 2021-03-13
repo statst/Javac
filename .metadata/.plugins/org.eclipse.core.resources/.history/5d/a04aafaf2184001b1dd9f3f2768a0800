@@ -1,0 +1,26 @@
+package com.in28minutes.oops;
+
+public class MotoBike {
+	// state
+	private int speed;
+
+	// behavior
+	// method
+	// inputs - int speed
+	// outputs - void
+	// name - setSpeed
+
+	void setSpeed(int speed) { // local variable
+		System.out.println(speed);
+		System.out.println(this.speed);
+		this.speed = speed;
+	}
+
+	// getter method to get speed
+	int getSpeed() {
+		return speed;
+	}
+	void start() {
+		System.out.println("Bike Started");
+	}
+}
